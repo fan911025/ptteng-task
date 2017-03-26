@@ -1,0 +1,176 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#FAFAFA;
+}
+.header{
+	background-color: blue;
+}
+.phone{
+	font-size: 0.5rem;
+    padding: 0.3rem;
+}
+.register{
+	word-spacing: -0.45rem;
+    float: right;
+}
+.enter {
+	font-size: 0.5rem;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding:0.3rem;
+}
+.enter:hover{
+	background-color: #FFF;
+}
+.registered{
+	font-size: 0.5rem;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding:0.3rem;	
+}
+.registered:hover{
+	background-color: #FFF;
+}
+.options{
+	float:right;
+	padding: 2rem;
+}
+.erbi{
+    margin-left: 4rem;
+    padding: 0.5rem;
+    background-color:#FFF;
+}
+.erbi:hover{
+	background-color: blue;
+}
+.navbar-nav{
+	text-align:center;
+}
+@media screen and (max-width: 768px) {
+    .options{
+    display:none;
+}
+    }
+@media screen and (min-width: 768px) {    
+.navbar-default{
+	display: none;
+ 	}
+}
+@media screen and (min-width: 768px) {
+	.navbar-default .navbar-brand{
+	display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fenjia{
+    display: inline-block;
+    float: right;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+@media screen and (max-width: 768px) {
+    .fenjia{
+	float: none;
+    width: 100%;
+    text-align: center;
+    }
+}
+.right-bottom{
+	padding-top:0.5rem;
+}
+.packaging{
+    padding: 2rem;
+    font-size: 1.7rem;
+    padding-bottom: 7.4rem;
+    text-align: center;
+}
+.concern{
+	padding:2rem;
+	text-align: center;
+}
+.icp{
+	text-align: center;
+	background-color: blue;
+	padding: 0.5rem;
+}
+.bottom{
+	padding-bottom: 2.2rem;
+}
+.bottom span{
+	padding-right:0.5rem;
+	padding-left: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+.col-xs-8{
+	width:69%;
+    }
+}
+.custom{
+	border-left: 0.4rem solid red;
+    padding: 0.4rem;
+}
+.model{
+	padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color:#F2F2F2; 
+}
+.box{
+	width: 7rem;
+}
+.radio{
+	display:inline-block;
+}
+.regular-radio{
+	display:none;
+}
+.single{
+	display: inline-block;
+	vertical-align: middle;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #f8f9fb;
+    border: 0.1rem solid #1d7ad9;
+    border-radius: 50%;
+    content: "";
+}
+.regular-radio:checked + .single:after{
+	display: inline-block;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #f8f9fb;
+    border: 0.7rem solid #1d7ad9;
+    border-radius: 50%;
+    content: "";
+}
+.Suit-cases{
+	float: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.xuanze{
+    background-image: url(images/sanjiao.png);
+    background-position: 4.9rem;
+    padding-right: 2.2rem;
+    float: right;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+}
