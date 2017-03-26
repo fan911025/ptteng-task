@@ -62,6 +62,24 @@ body{
 	display: none;
 	}
 }
+.process{
+    width: 25%;
+    height: 1rem;
+    background-color: orange;
+    float:right;
+}
+.process p{
+    position: relative;
+    top: -1rem;
+    left: 5rem;
+    width: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+    color: white;
+    background: #ffa500;
+    border-radius: 50%;
+    text-align: center;
+}
 
 
 
@@ -102,6 +120,10 @@ body{
     padding-bottom: 7.4rem;
     text-align: center;
 }
+/*底部*/
+.footer{
+    background-color: #F2F2F2;
+}
 .concern{
 	padding:2rem;
 	text-align: center;
@@ -111,6 +133,7 @@ body{
 	background-color: blue;
 	padding: 0.5rem;
 }
+/*主题*/
 .bottom{
 	padding-bottom: 2.2rem;
 }
@@ -167,10 +190,112 @@ body{
     margin-top: 2rem;
 }
 .xuanze{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:right;
     background-image: url(images/sanjiao.png);
     background-position: 4.9rem;
     padding-right: 2.2rem;
-    float: right;
     background-repeat: no-repeat;
     -webkit-appearance: none;
+}
+@media screen and (max-width: 768px) {
+.xuanze{
+    float:none;
+    }
+}
+@media screen and (max-width: 768px) {
+.col-xs-1-2{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    }
+}
+/*确定尺寸*/
+.measure{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #F2F2F2;
+}
+.long,.wide,.high{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.input-box{
+        width: 50%;
+}
+.xuanze2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    float: right;
+    background-image: url(images/sanjiao.png);
+    background-position: 4.9rem;
+    padding-right: 2.2rem;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+}
+@media screen and (max-width: 768px) {
+.xuanze2{
+    display: none;
+    }
+}
+.xuanze3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+    background-image: url(images/sanjiao.png);
+    background-position: 4.9rem;
+    padding-right: 2.2rem;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+}
+@media screen and (min-width: 769px) {
+.xuanze3{
+    display: none;
+    }
+}
+@media screen and (max-width: 769px) {
+.xuanze3{
+    float: none;
+    }
+}
+/*选择材质*/
+.texture{
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #F2F2F2;
+}
+.xuanze4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:right;
+    background-image: url(images/sanjiao.png);
+    background-position: 4.9rem;
+    padding-right: 2.2rem;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+}
+@media screen and (max-width: 991px) {
+.xuanze4{
+    float: none;
+    }
+}
+/*下一步*/
+.next-step{
+    line-height: 5rem;
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+@media screen and (max-width: 768px) {
+.next-step{
+    line-height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    }
 }

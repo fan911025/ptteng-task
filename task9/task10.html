@@ -59,7 +59,25 @@
       </div>
     </div>
   </nav>
-  <div class="container" style="clear: both;">
+  <div class="container" style="clear:both">
+    <div class="row">
+      <div class="cos-xs-10 col-sm-10 col-md-10 col-lg-10" style="float:right">
+        <div class="process">
+          <p>4</p>
+        </div>
+        <div class="process">
+          <p>3</p>
+        </div>
+        <div class="process">
+          <p>2</p>
+        </div>
+        <div class="process">
+          <p>1</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="clear:both">
     <div class="row">
       <div class="custom">
         请您按照以下步骤来定制您的纸箱
@@ -69,100 +87,219 @@
       <div class="model">
         <img src="images/box.png">选择箱型
       </div>
-      <form>
-        <label class="radio" for="optionsRadios1">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <from>
+          <label class="radio" for="optionsRadios1">
 					<input type="radio" name="optionsRadios" id="optionsRadios1" class="regular-radio"checked="checked">
 					<span class="single"></span>
 					对口箱
 				  </label>
-        <label class="radio" for="optionsRadios2">
+        </from>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <from>
+          <label class="radio" for="optionsRadios2">
 					<input type="radio" name="optionsRadios" id="optionsRadios2" class="regular-radio"checked="checked">
 					<span class="single"></span>
 					飞机盖
-				  </label>
-        <label class="radio" for="optionsRadios3">
+				</label>
+        </from>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <from>
+          <label class="radio" for="optionsRadios3">
 					<input type="radio" name="optionsRadios" id="optionsRadios3" class="regular-radio"checked="checked">
 					<span class="single"></span>
 					天地盖
-				  </label>
-      </form>
-      <!--12312
-                  <div class="box">
-                   <div>
-                    <div class="single"></div>
-                    <div class="Suit-cases">对口箱</div>
-                   </div>
-                  </div>
-                  <div class="box">
-                    <div class="single"></div>
-                    <div class="Suit-cases">飞机盒</div>
-                  </div>
-                  <div class="box">
-                     <div class="single"></div>
-                     <div class="Suit-cases">天地盖</div>
-                  </div>
-                  -->
-      <div>
+				</label>
+        </from>
+      </div>
+      <div class="col-xs-1-2 col-sm-3 col-md-3 col-lg-3">
         <select class="xuanze">
   					<option value="volvo">查看详情</option>
   					<option value="saab">查看详情</option>
   					<option value="opel">查看详情</option>
   					<option value="audi">查看详情</option>
-				  </select>
-        <div class="measure">
-          <img src="images/measure.png">确定尺寸
+				</select>
+      </div>
+    </div>
+    <!--尺寸-->
+    <div class="row">
+      <div class="measure">
+        <img src="images/measure.png">确定尺寸
+      </div>
+      <!--外径-->
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios4">
+					<input type="radio" name="optionsRadios" id="optionsRadios4" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					外径
+				  </label>
+        </from>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="long">
+          长<input type="text" class="input-box">mm
         </div>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="wide">
+          宽<input type="text" class="input-box">mm
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="high">
+          高<input type="text" class="input-box">mm
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <select class="xuanze2">
+  					<option value="volvo">查看详情</option>
+  					<option value="saab">查看详情</option>
+  					<option value="opel">查看详情</option>
+  					<option value="audi">查看详情</option>
+				</select>
+      </div>
+    </div>
+    <!--内径-->
+    <div class="row">
+      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios5">
+					<input type="radio" name="optionsRadios" id="optionsRadios5" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					内径
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="long">
+          长<input type="text" class="input-box">mm
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="wide">
+          宽<input type="text" class="input-box">mm
+        </div>
+      </div>
+      <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+        <div class="high">
+          高<input type="text" class="input-box">mm
+        </div>
+      </div>
+      <div class="col-xs-1-2 col-sm-12 col-md-12 col-lg-12">
+        <select class="xuanze3">
+  					<option value="volvo">查看详情</option>
+  					<option value="saab">查看详情</option>
+  					<option value="opel">查看详情</option>
+  					<option value="audi">查看详情</option>
+				</select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="texture">
+        <img src="images/Cut-Scissors.png">选择材质
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios6">
+					<input type="radio" name="optionsRadios" id="optionsRadios6" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					 A瓦优质
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios7">
+					<input type="radio" name="optionsRadios" id="optionsRadios7" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					 B瓦优质
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios8">
+					<input type="radio" name="optionsRadios" id="optionsRadios8" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					 E瓦优质
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios9">
+					<input type="radio" name="optionsRadios" id="optionsRadios9" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					AB瓦优质
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <from>
+          <label class="radio" for="optionsRadios10">
+					<input type="radio" name="optionsRadios" id="optionsRadios10" class="regular-radio"checked="checked">
+					<span class="single"></span>
+					BE瓦优质
+				 </label>
+        </from>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+        <select class="xuanze4">
+  					<option value="volvo">查看详情</option>
+  					<option value="saab">查看详情</option>
+  					<option value="opel">查看详情</option>
+  					<option value="audi">查看详情</option>
+				</select>
+      </div >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+      <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: center">
+         <button class="next-step">下一步</button>
+       </div>
       </div>
     </div>
   </div>
 
-  <div>
-    <div class="texture">
-    </div>
-    <div>
+
+
+
+  <div class="footer">
+    <div class="container">
       <div class="row">
-      </div>
-    </div>
-
-
-
-
-
-    <div class="footer" style="margin-top:50%">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="packaging">51包装网—纸箱包装首选服务平台</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-            <div class="concern">
-              <div class="bottom">
-                <span>关于我们</span>
-                <span>配送流程</span>
-                <span>联系我们</span>
-              </div>
-              <div class="bottom">
-                <span>下单指南</span>
-                <span>媒体介绍</span>
-              </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="packaging">51包装网—纸箱包装首选服务平台</div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="concern">
+            <div class="bottom">
+              <span>关于我们</span>
+              <span>配送流程</span>
+              <span>联系我们</span>
+            </div>
+            <div class="bottom">
+              <span>下单指南</span>
+              <span>媒体介绍</span>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
-            <div>
-              <div class="fenjia"><img src="images/ma.png"></div>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+          <div>
+            <div class="fenjia"><img src="images/ma.png"></div>
 
-              <div class="fenjia">
-                <div class="right-bottom">TEL：400-0000-000</div>
-                <div class="right-bottom">企业QQ：123456789</div>
-                <div class="right-bottom">微信号：XXXXXXX</div>
-              </div>
+            <div class="fenjia">
+              <div class="right-bottom">TEL：400-0000-000</div>
+              <div class="right-bottom">企业QQ：123456789</div>
+              <div class="right-bottom">微信号：XXXXXXX</div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="icp">北京五一包装科技有限公司Copyright ©2015 51baozhuang.com015 All rights reserved. 京icp备99999999-1
-    </div>
+  </div>
+  <div class="icp">北京五一包装科技有限公司Copyright ©2015 51baozhuang.com015 All rights reserved. 京icp备99999999-1
+  </div>
 </body>
 
 </html>
