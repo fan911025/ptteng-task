@@ -2,6 +2,7 @@ body{
 	margin:0;
 	padding:0;
 	background-color:#FAFAFA;
+    min-width: 387px;
 }
 .header{
 	background-color: blue;
@@ -33,13 +34,15 @@ body{
 	background-color: #FFF;
 }
 .options{
-	float:right;
-	padding: 2rem;
+    padding: 0.8rem;
+    background-color: #F2F2F2;
 }
 .erbi{
-    margin-left: 4rem;
+    margin-left: 1.5rem;
     padding: 0.5rem;
-    background-color:#FFF;
+    background-color: #FFF;
+    float: right;
+    border-radius: 5px;
 }
 .erbi:hover{
 	background-color: blue;
@@ -62,6 +65,7 @@ body{
 	display: none;
 	}
 }
+
 .process{
     width: 25%;
     height: 1rem;
@@ -71,7 +75,7 @@ body{
 .process p{
     position: relative;
     top: -1rem;
-    left: 5rem;
+    left: 6.7rem;
     width: 2.6rem;
     line-height: 2.6rem;
     font-size: 1.8rem;
@@ -80,6 +84,61 @@ body{
     border-radius: 50%;
     text-align: center;
 }
+@media screen and (max-width: 1199px) {
+	.process p{
+	left:5.7rem;
+	}
+}
+@media screen and (max-width: 991px) {
+	.process p{
+	left:4.5rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.process p{
+	left: 37%;
+	}
+}
+.process2{
+    width: 25%;
+    height: 1rem;
+    background-color: #d6cfcf;
+    float:right;    
+}
+.process2 p{
+    position: relative;
+    top: -1rem;
+    left: 6.7rem;
+    width: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.8rem;
+    color: white;
+    background:#d6cfcf;
+    border-radius: 50%;
+    text-align: center;
+}
+@media screen and (max-width: 1199px) {
+	.process2 p{
+	left:5.7rem;
+	}
+}
+@media screen and (max-width: 991px) {
+	.process2 p{
+	left:4.5rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.process2 p{
+	left: 37%;
+	}
+}
+.process3{
+    display: inline-block;
+    width: 24%;
+    height: 1rem;
+    text-align: center;
+}
+/**/
 
 
 
@@ -149,12 +208,21 @@ body{
 .custom{
 	border-left: 0.4rem solid red;
     padding: 0.4rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.radius{
+    border: 2px solid #E8E8E8;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 3rem;
 }
 .model{
 	padding: 0.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color:#F2F2F2; 
+    border-bottom: 2px solid #E8E8E8;
 }
 .box{
 	width: 7rem;
@@ -217,6 +285,8 @@ body{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #F2F2F2;
+    border-top:2px solid #E8E8E8;
+    border-bottom:2px solid #E8E8E8;
 }
 .long,.wide,.high{
     margin-top:10px;
@@ -227,7 +297,6 @@ body{
 }
 .xuanze2{
     margin-top: 4rem;
-    margin-bottom: 1rem;
     float: right;
     background-image: url(images/sanjiao.png);
     background-position: 4.9rem;
@@ -266,6 +335,8 @@ body{
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #F2F2F2;
+    border-top:2px solid #E8E8E8;
+    border-bottom:2px solid #E8E8E8;
 }
 .xuanze4{
     margin-top: 10px;
