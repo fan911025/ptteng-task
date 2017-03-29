@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+<title>absolute和fixed的区别</title>
+<link rel="stylesheet" href="login_css.css" type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
+<meta charset="UTF-8">
+
+
+
+<style>
+ .html,body{
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+         }
+ .CR{
+
+clear: both;
+
+     }        
+.header{
+    width:100%;height:100px;
+    padding-bottom:0;
+    background-color: #4cb5bd;   
+       }
+.guanbi{
+      position:absolute;
+      top:35px;right:30%;left:3%;
+      font-size:1.5rem;
+
+       }
+.denglu{
+      position:absolute;
+      top:35px;right:30%;left:43%;bottom:30%;
+      font-size:1.5rem;
+	   }	 
+.zhuce{ 
+
+    position:absolute;
+      top:35px;right:3%;bottom:30%;
+      font-size:1.5rem;
+	   }
+.yemian{
+     padding-bottom: 100%;
+     background-color:#CCCCCC;
+       }
+.zhanghao{
+     background-color:#FFFFFF;
+     width:100%;
+     height:80px;
+     margin-top:5px;
+     }  
+         
+.zhanghao img{
+           margin-top:21px;
+         margin-bottom:-10px;
+         margin-left:12px;
+     border-right:solid 1px #F0F0F0;
+     padding-right:27px;
+             }  
+.zhanghao input{ 
+font-family: "microsoft yahei";
+margin-top:28px;
+font-size:1.5rem;
+margin-left:14px;
+width:60%;
+border:none;
+
+ }  
+.mima{
+	 background-color:#FFFFFF;
+	 width:100%;
+	 height:80px;
+     margin-top:5px;
+     }		    
+.mima img{
+         margin-top:21px;
+         height: 40px;
+         margin-left:12px;
+         margin-bottom: -10px;
+         border-right:solid 1px #F0F0F0;
+         padding-right:27px;
+     } 
+ .mima input{
+font-family: "microsoft yahei";
+margin-top:28px;
+font-size:1.5rem;
+margin-left:20px;
+width:60%;
+border:none;
+ }      
+.denglu2{
+   
+    background-color:#68cdd5;
+    margin-top:15px;
+    height:120px;
+    text-align:center;
+        }
+
+.denglu2 button{ 
+   
+    height:100%; 
+    width:100%;
+    
+    background-color:#4cb5bd;
+
+               }
+.daxiao{
+    color:#FFFFFF;
+    font-size:1.8rem;
+    margin-top:10px;
+
+       }
+.wangji{
+ 
+ float:right;margin-right:1%; 
+ font-size:1.6rem; 
+ color:black;
+       }  
+a{text-decoration: none}
+ </style>     
+
+</head>
+<body>
+<div class="yemian">
+  <div class="header">
+    <div class="guanbi"><a href="http://www.baidu.com" style="color:#FFF">关闭</a></div>
+    <div class="denglu"><a style="color:#FFF">登录</a></div>
+    <div class="zhuce"><a href="http://www.baidu.com" style="color:#FFF">注册</a></div>
+  </div>
+       <div class="zhanghao">
+         <img src="images/iphone.png">
+           
+     <input type="text" placeholder="请输入手机号">
+       
+   </div>
+   <div class="mima">
+      <img src="images/locked-2.png"> 
+
+      <input type="password" placeholder="请输入密码">
+   </div> 
+
+     <div class="denglu2">
+        <button type="denglu3" onclick="window.open('http://baidu.com/')"><h1 class="daxiao">登&nbsp;&nbsp;录</h1></button> 
+   </div>
+    <div class="wangji"><a href="http://www.baidu.com"><a style="color:#5fa3a9">忘记密码?</a>
+   </div>
+ </div> 
+      </div>
+        <div class="CR"></div>
+      </div>
+</body>
+</html>
