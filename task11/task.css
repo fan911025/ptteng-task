@@ -35,9 +35,8 @@ body {
   color: #ffffff;
 }
 .login {
-  position: absolute;
-  top: 35px;
-  right: 3%;
+  float: right;
+  margin-top: -31px;
   font-size: 1.5rem;
 }
 .login a {
