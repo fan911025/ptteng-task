@@ -54,13 +54,13 @@ body {
   margin-top: 21px;
   margin-bottom: -10px;
   margin-left: 12px;
-  margin-right: 27px;
-  border-right: solid 1px #f0f0f0;
+  margin-right: 15px;
+  border-right: solid 2px #f0f0f0;
+  padding-right: 100px -85;
 }
 .account input {
   margin-top: 28px;
   font-size: 1.5rem;
-  margin-left: 14px;
   width: 60%;
   border: none;
 }
@@ -74,13 +74,13 @@ body {
   margin-top: 21px;
   margin-bottom: -10px;
   margin-left: 12px;
-  margin-right: 27px;
-  border-right: solid 1px #f0f0f0;
+  margin-right: 15px;
+  border-right: solid 2px #f0f0f0;
+  padding-right: 100px -85;
 }
 .password input {
   margin-top: 28px;
   font-size: 1.5rem;
-  margin-left: 14px;
   width: 60%;
   border: none;
 }
