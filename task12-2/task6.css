@@ -1,0 +1,123 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 68px;
+  background-color: #28d7e8;
+  text-align: center;
+}
+.header img {
+  float: right;
+  margin-right: 3%;
+  margin-top: 14px;
+  width: 37px;
+}
+.header button {
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 22px;
+  border-radius: 9px;
+  outline: none;
+  border: hidden;
+}
+.employer {
+  margin-top: 12px;
+  margin-left: 8%;
+  background-color: #55a8b3;
+  margin-right: -2%;
+  color: #ffffff;
+}
+.care {
+  background-color: #ffffff;
+  color: #28d7e8;
+}
+.message {
+  font-size: 0;
+}
+.message select {
+  margin-top: 67px;
+  width: 33.333333%;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+  border-left: 1px solid;
+  color: #dbddde;
+}
+.matter {
+  width: 100%;
+  background-color: #ffffff;
+  background-image: url(images/img.png);
+  background-repeat: no-repeat;
+  background-position: 4% 22px;
+  background-size: 17px;
+  padding-bottom: 21px;
+  border-top: solid 1px #dbddde;
+}
+.matter img {
+  float: right;
+  margin-top: -47px;
+  margin-right: 2%;
+  width: 13px;
+}
+.matter .date {
+  margin-left: 13%;
+  padding-top: 22px;
+  color: #dbddde;
+  font-size: 0.9rem;
+}
+.matter .time {
+  font-size: 0.9rem;
+  margin-left: 13%;
+  margin-top: 9px;
+}
+.matter .time span {
+  float: right;
+  margin-right: 9%;
+  color: #ff0000;
+}
+.matter .site {
+  margin-left: 13%;
+  padding-top: 6px;
+  font-size: 0.9rem;
+  color: #dbddde;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8fafb;
+  text-align: center;
+}
+.footer .left {
+  display: inline-block;
+  float: left;
+  margin-top: 29px;
+  margin-left: 11%;
+}
+.footer .left .home-page {
+  color: #5ac0ce;
+  margin-left: 3%;
+}
+.footer .center {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.footer .right {
+  float: right;
+  display: inline-block;
+  margin-top: 27px;
+  margin-right: 11%;
+}
+.footer .right .me {
+  color: #5ac0ce;
+  margin-left: 3%;
+}

@@ -1,135 +1,86 @@
 <!DOCTYPE html>
-   <head>
-  	 <title>taks6</title>
-     <link rel="stylesheet" href="task6-1.CSS" type="text/css">
-     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
-      <meta charset="UTF-8">
-      <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-<link
-    href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    rel="stylesheet">
-<script
-    src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js">
-</script>
- <style>
-   
-     a { text-decoration: none}
+<html>
+
+<head>
+  <title>taks6</title>
+  <link rel="stylesheet" href="task6.CSS" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+  <style>
+    a {
+      text-decoration: none
     }
-</style>
-    </head>
-<body style="margin:0 auto">
+  </style>
+</head>
 
-
-<div class="header">
-
-        <button type="zhaoguzhu" style="margin-top: 12px;margin-left:8%;background-color: #55A8B3;margin-right: -3%;color:white;
-        padding:8px;padding-left: 2vw;padding-right: 2vw;font-size: 22px;">找雇主
-        </button>
-  <button type="zhaohugong" style="background-color:#FFF;color:#28d7e8;padding:8px;padding-left: 2vw;padding-right: 2vw;font-size: 22px;">找护工</button>
-          <a href="http://www.baidu.com/"><img src="images/dizhi.png"></a>
-         <div class="dropdown" style="margin-top: 9px;">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-  <div style="border-right: 1px solid #dadcdd;">
-    所在地
-    <span class="caret1"></span>
+<body>
+  <div class="header">
+    <button class="employer">找雇主</button>
+    <button class="care">找护工</button>
+    <a href="http://www.baidu.com/">
+      <img src="images/dizhi.png">
+    </a>
   </div>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="margin-top: 37px; width:32vw;min-width:10px;max-width: 240px;">
-    <li><a href="#">伊拉克</a></li>
-    <li><a href="#">伊朗</a></li>
-    <li><a href="#">美利坚</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">老挝</a></li>
-  </ul>
-</div>
-<div class="dropdown" >
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-  <div style="border-right:1px solid #dadcdd">
-   食宿</div>
-    <span class="caret1" style="margin-top: -15px;"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="margin-left: 33.3%;width:32vw;margin-top: 37px;min-width:110px;max-width: 240px;">
-    <li><a href="#">包住</a></li>
-    <li><a href="#">包吃</a></li>
-    <li><a href="#">包吃包住</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">不包吃不包住</a></li>
-  </ul>
-</div>
-<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-   病人情况
-    <span class="caret1"></span>
-  </button>
-
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="margin-left:66.6%;    max-width: 240px;
-   margin-top: 37px;width:32vw;min-width:10px;">
-    <li><a href="#">已死</a></li>
-    <li><a href="#">已升天</a></li>
-    <li><a href="#">已超生</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">已投胎</a></li>
-  </ul>
-</div>
-</div>
-<div class="neirong1">
-      <div class="riqi">服务日期</div> 
-     <div class="shijian">2015-7-5至2015-7-12 <span style="color:red;float: right;
-    margin-right: 9%;">25元/每小时</span> </div>
-     <div class="dizhi">北京.通州.果园</div>
-      <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
-     </div>
-
-
-   <div class="neirong2">
-     <div class="riqi">服务日期</div> 
-     <div class="shijian">2015-7-5至2015-7-12<span style="color:red;float: right;
-      margin-right: 9%;">35元/每小时</span> </div>
-     <div class="dizhi">北京.通州.果园</div>
-      <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
-   </div>
-   <div class="neirong2">
-     <div class="riqi">服务日期</div> 
-     <div class="shijian">2015-7-5至2015-7-12<span style="color:red;float: right;
-      margin-right: 9%;">45元/每小时</span> </div>
-     <div class="dizhi">北京.通州.果园</div>
-       <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
-   </div>
-   <div class="neirong2">
-     <div class="riqi">服务日期</div> 
-     <div class="shijian">2015-7-5至2015-7-12<span style="color:red;float: right;
-      margin-right: 9%;">45元/每小时</span> </div>
-       <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
-     <div class="dizhi">北京.通州.果园</div>
-   </div>
-   <div class="neirong2">
-     <div class="riqi">服务日期</div> 
-     <div class="shijian">2015-7-5至2015-7-12<span style="color:red;float:right;
-    margin-right: 9%;">45元/每小时</span> </div>
-     <div class="dizhi">北京.通州.果园</div>
-         <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
-   </div>
-   <div class="neirong3">
-   </div>
-
-<div class="footer" >
-  <ul>
-
-        <div class="left">
-                <div class="first"><a href="http://www.baidu.com/"><img src="images/fangzi.png" alt=""></a></div>
-                <div class="shuzi1">首页</div>
-            </div>
-           
-                  <div class="center">
-                <div class="second"><a href="http://www.baidu.com/"><img src="images/Write.png" alt=""></a></div>
-            </div>
-            
-                  <div class="right">
-                <div class="third"><a href="http://www.baidu.com/"><img src="images/niuren.png" alt=""></a></div>
-                <div class="shuzi2">我的</div>
-            </div>
-            </div>
-  </ul>
- </div>
+  <div class="message">
+    <select class="address">
+    <option clas="home">所在地</option>
+    <option clas="home">伊拉克</option>
+    <option clas="home">澳大利亚</option>
+    <option clas="home">老挝</option>
+  </select>
+    <select class="food">
+    <option clas="home">食宿</option>
+    <option clas="home">烧花鸭</option>
+    <option clas="home">蒸熊掌</option>
+    <option clas="home">蒸鹿茸</option>
+  </select>
+    <select class="condition">
+    <option clas="home">病人情况</option>
+    <option clas="home">早死早超生</option>
+    <option clas="home">飞升中</option>
+    <option clas="home">已投胎</option>
+  </select>
+  </div>
+  <div class="matter">
+    <div class="date">服务日期</div>
+    <div class="time">2015-7-5至2015-7-12 <span>25元/每小时</span> </div>
+    <div class="site">北京.通州.果园</div>
+    <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
+  </div>
+  <div class="matter">
+    <div class="date">服务日期</div>
+    <div class="time">2015-7-5至2015-7-12 <span>35元/每小时</span> </div>
+    <div class="site">北京.通州.果园</div>
+    <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
+  </div>
+  <div class="matter">
+    <div class="date">服务日期</div>
+    <div class="time">2015-7-5至2015-7-12 <span>45元/每小时</span> </div>
+    <div class="site">北京.通州.果园</div>
+    <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
+  </div>
+  <div class="matter">
+    <div class="date">服务日期</div>
+    <div class="time">2015-7-5至2015-7-12 <span>45元/每小时</span> </div>
+    <div class="site">北京.通州.果园</div>
+    <a href="http://www.baidu.com/"><img src="images/jiantou.png"></a>
+  </div>
+  <div class="footer">
+    <div class="left">
+      <div class="first">
+        <a href="http://www.baidu.com/"><img src="images/fangzi.png" alt=""></a>
+      </div>
+      <div class="home-page">首页</div>
+    </div>
+    <div class="center">
+      <a href="http://www.baidu.com/"><img src="images/write.png" alt=""></a>
+    </div>
+    <div class="right">
+      <div class="third">
+        <a href="http://www.baidu.com/"><img src="images/niuren.png" alt=""></a>
+      </div>
+      <div class="me">我的</div>
+    </div>
+  </div>
 </body>
 </html>
