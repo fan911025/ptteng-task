@@ -88,7 +88,7 @@
 }
     }
 .zhuogui{
-    float: right;
+     float: right;
      width: 3.75vw;
      height: 6.25vw;
      display: inline-block;
@@ -164,5 +164,5 @@ color: #9a9a9a;
 @media screen and (min-width: 768px) {
     .yonghu {
     font-size: 20px;
-}
     }
+}
