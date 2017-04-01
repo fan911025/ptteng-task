@@ -1,0 +1,146 @@
+.html,body{
+ /*清除边界空白部分*/
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+    height: 100%;
+    max-width:760px;
+    margin:0 auto;
+         }
+
+.header{
+    position: fixed;
+    background-color: #69D1E9;
+    z-index: 2;
+    text-align: center;
+    font-size: 1.5rem;
+    color:#FFF;
+    width: 100%;
+    max-width:760px;
+       }
+.small-bridge1{
+    float: left;
+    margin-left: 20px;
+    margin-top: -6px;
+    color:#FFF;
+      }
+
+.fork{
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.theme{
+    width: 100%;
+    background-color: #B9E9F5;
+    float: left;
+    margin-top: 62px;	
+}
+.text{
+
+    line-height: 30px;
+    padding: 0;
+    margin-left: 20px;
+}
+.text1{
+      font-size: 1.1rem;
+     }
+.text img{
+    width: 33px;
+    float: right;
+    margin-right: 8px;
+          }
+.prompt{
+      float:left;
+      margin-left: -79px;
+      width: 100%;
+       }
+.triangle{
+    margin-top: 0px;
+    margin-left: 67px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid #B9E9F5;
+    float: left;
+        }
+.content{
+    float: left;
+    width: 100%;
+    padding-bottom: 10vw;
+    background-color:#69D1E9;
+        }
+.vote{
+    display: inline-block;
+    height: 157px;
+    width: 31.94444%;
+    } 
+.box{
+    border: 1px solid white;
+    width: 90px;
+    height: 104px;
+    margin: 0 auto;
+}
+ .Water-People{   
+    height: 75px;
+    background-color: #F5C97B;
+    font-size: 22px;
+    text-align: center;
+    line-height: 75px;
+              }
+ .first{
+    height: 29px;
+    background-color: #83B09a;
+    text-align: center;
+    font-size: 17px;
+}
+.img{    
+    background-image: url(images/circle2.png);
+    height: 54px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -10px;
+    margin-right: 23px;
+    width: 53px;
+    }
+.footer{
+    position: fixed;
+    background-color: #69D1E9;
+    width: 100%;
+    max-width:760px;
+    bottom: 0px;
+       }
+.footer button{
+    font-size: 1.5rem;
+    line-height: 55px;
+    width: 90%;	
+    background-color: #FBB435;
+    color: #FFF;
+    outline:medium;
+    border:none;  
+       }
+.select{
+    width: 88px;
+    margin: 15px auto;
+      }
+.vote:hover>.select button{
+    opacity: 1;
+    width: 19px;
+    height: 19px;
+    background-size: 18px 19px;
+    background-repeat: no-repeat;
+    border: none;
+                           }
+.knife{background-image: url(images/knife.png);}
+.magnifying-glass{background-image: url(images/magnifying-glass.png);} 
+.sight{background-image: url(images/sight.png);}
+.medical{background-image: url(images/medical.png);}
+.select button{
+    width: 19px;
+    height: 19px;
+    background-size: 18px 19px;
+    background-repeat: no-repeat;
+    border: none;
+    opacity:0;
+             }
