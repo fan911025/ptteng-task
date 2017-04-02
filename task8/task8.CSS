@@ -1,0 +1,339 @@
+html,body{
+ /*清除边界空白部分*/
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+    height: 100%;
+    background-color:#FAFAFA;
+         }
+* {
+  padding:0;
+  margin:0;
+   }
+@media screen and (min-width: 1200px) {
+    .col-lg-2-5 {
+    float: left;
+    width: 20%;
+    padding: 0 5px;
+}
+  }
+.register{
+    z-index: 2;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #4fc194;
+    float: left;
+}
+.fork{
+    float: right;
+    padding: 0.74vw;
+    padding-right: 9vw;
+}
+.fork img{     
+    width: 3.9vw;
+    margin-right: 1vw;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-color:#4fc194;
+}
+.header span{
+    padding: 1.97vw;
+    font-size: 2.2vw;
+    padding-bottom: 2.9vw;
+}
+.header span:hover{
+  border-bottom:0.5vw solid #FFF;
+}
+.shuffling{
+    float: left;
+    width: 100%;
+          }
+.navigation{
+    position: absolute;
+    top: 22%;
+    bottom: 100%;
+    left: 0;
+    font-size: 12vw;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(33, 28, 28, 0);
+    opacity: 1;
+           }
+ .navigation.right {
+    right: 0;
+    left: auto;
+                          }
+.neirong{
+    font-size: 3vw;
+    position: absolute;
+    right: 5%;
+    bottom: 34%;
+    left: 5%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+
+    text-indent: 20%;
+        }
+.neirong span{
+    font-size: 6vw;
+            }
+.a:focus, a:hover {
+    color: #23527c;
+    text-decoration:none;
+                  }
+.carousel-indicators {
+    position: absolute;
+    bottom: 0.1%;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+                    }
+.neirong2{
+     text-align:center;
+        }
+.methods{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.Avatar-man{    
+    background-image: url(images/Avatar-man.png);
+    background-size: 85px;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 90px;
+    color: red;
+    margin: 0 auto;
+    background-position: 0 -14px;
+          }
+.Avatar-girl{
+	background-image: url(images/Avatar-gril.png);
+    background-size: 85px;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 90px;
+    color: red;
+    margin: 0 auto;
+    background-position: 0 -14px;
+            }
+.Avatar-gril2{
+    background-image: url(images/Avatar-gril2.png);
+    background-size: 96px;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 90px;
+    color: red;
+    margin: 0 auto;
+    background-position: -14px -14px;
+            }
+.pic{
+	background-image: url(images/pic.png);
+    background-size: 85px;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 90px;
+    color: red;
+    margin: 0 auto;
+            }
+.circle{
+    text-align: center;
+    margin-top: 14px;
+       }
+.circle1{
+   background-position: left 29.9%;
+   background-size: 280%;
+   background-color:#FFF;
+   width:13px;height:13px;
+   display: inline-block;
+   margin: 0 0.2vw;
+   border-radius: 50px;
+       }
+.circle1:hover{
+  background-color:#69D1E9;
+}
+.circle2{
+   background-position: left 29.9%;
+   background-size: 280%;
+   background-color:#FFF;
+   width:13px;height:13px;
+   display: inline-block;
+   margin: 0 0.2vw;
+   border-radius: 50px;
+       }
+.circle2:hover{
+  background-color:#69D1E9;
+}
+.headline{
+    text-align: center;
+    padding: 45px;
+         }
+.gao{
+    padding: 10px;
+    margin-top: 50px;
+}
+.box1{
+    padding:15px;
+    background-color: #FFF;
+    }
+.col{
+    text-align:center;
+    }
+.box2{
+    width: 19.3%;
+    line-height: 15;
+    min-width: 181px;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    margin: 10px auto;
+     }
+.box2:hover{
+    box-shadow: 0 0 15px #999;
+           }
+.col5{
+    float: left;
+    width: 10%;
+    text-align: center;
+    min-width: 83px;
+    padding-bottom:10px;
+      }
+.col5 span:hover{
+     border-bottom:2px solid red;
+           }
+.study {
+    margin: 100px 0 -50px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.step {
+    position: relative;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.step1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 51px;
+}
+
+.step2 {
+    margin: 0 30px 0 51px;
+}
+
+.step3 {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+}
+@media screen and (max-width: 992px) {
+    .step3 {
+        width: 32px;
+        height: 32px;
+        background-image:url(images/triangle.png);
+    }
+}
+
+.circular {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #29b078;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 1px 2px rgba(200, 200, 200, .9);
+}
+
+.details {
+    display: block;
+    margin: 5px 0 0 10px;
+    color: #999;
+    font-size: 16px;
+    line-height: 2rem;
+    text-align: left;
+}
+.footer{
+    background-color: #1db176;
+    }
+.wechat{
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.Qr-code{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.Qr-code img{
+    min-width: 72px;
+    max-width: 11vw;
+    width: 11vw;
+}
+.change{
+    padding: 2vw;
+    font-size: 2vw;
+    padding-top: 3.3vw;
+}
+.related{
+    padding: 2vw;
+    font-size: 1.5vw;
+    padding-top: 5vw;
+}
+.related span{
+    padding-right: 0.7vw;
+    border-right: 0.2vw solid red;
+}
+.sites{
+    padding-top: 3.3vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+      }
+.Grass-boat{
+    padding-top: 1.514vw;
+    padding-bottom: 1.514vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+}
+.Grass-boat span{
+    padding-right: 1.5vw;
+}
+.ptteng{
+    padding-top: 1.514vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+}
+.ptteng span{
+    padding-right: 1.5vw;
+}
+.footer2{
+    background: #26a26f;
+    border-top: 0.1rem solid #32c086;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
