@@ -131,7 +131,7 @@ img {
   border: none;
   opacity: 0;
 }
-.vote:hover > .select button {
+.vote:hover > .choose button {
   width: 19px;
   height: 19px;
   background-size: 19px 10px 9;
