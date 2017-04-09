@@ -1,0 +1,168 @@
+.html,body{
+ /*清除边界空白部分*/
+    padding: 0;
+    font-size: 62.5%;
+    height: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+         }
+.header{
+    width: 100%;
+    height: 7vw;
+    background-color: #69D1E9;
+        }
+@media screen and (min-width: 768px) {
+    .header {
+    height:53.7px;
+}
+    }
+.header img{
+    width: 5vw;
+    padding: 1.4vw;
+    float: left;    
+        }
+@media screen and (min-width: 768px) {
+    .header img{
+    width:38px;
+    padding:10.75px;
+}
+    }        
+.headline{
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 14px;
+    background-color: #f0f0f0;
+}       
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+.youyong img{
+    float: right;
+    width: 4%;
+    margin-top: -53.5vw;
+    margin-right: 1vw;
+}
+@media screen and (max-width: 370px) {
+    .youyong img {
+    margin-top: -55vw;
+}
+    }
+@media screen and (min-width: 768px) {
+    .youyong img {
+    margin-top: -398px;
+    width: 27px;
+}
+    }
+.triangle{
+    position:relative;
+    top: -10vw;
+    right: -78vw;
+    width: 3.5vw;
+    height: 8.5vw;
+    background-position: left 9%;
+    background-size: 100%;
+    background-image: url(images/triangle.png);
+    background-repeat:no-repeat
+}
+@media screen and (min-width: 768px) {
+    .triangle {
+    right:-598px;
+    width:26.8px;
+    height:53.7px;
+}
+    }
+.game{
+    border-bottom: 1px solid #fdd793;
+    font-size: 3.5vw;
+    color: #fbb435;
+    padding: 14px 0;
+}
+@media screen and (min-width: 768px) {
+    .game {
+    font-size:24px; 
+}
+    }
+.zhuogui{
+    float: right;
+     width: 3.75vw;
+     height: 6.25vw;
+     display: inline-block;
+     margin: 0 2.19vw;
+     background-position: left -0px;
+     background-size: 100%;
+     background-image: url(images/arrows.png);
+     background-repeat:no-repeat
+}
+@media screen and (min-width: 700px) {
+    .zhuogui {
+    width:27px;
+}
+    }
+.headline .board-game{
+height: 5.5vw;
+margin-bottom: 14px;padding: 18px 0;
+border: 1px solid #c9c9c9;
+background-color: #FFF;
+text-align: center;
+line-height: 6.25vw;
+font-size: 3vw;
+color: #9a9a9a;
+          }
+@media screen and (min-width: 768px) {
+    .headline .board-game {
+    font-size: 24px;
+    line-height: 45px;
+    height: 42.23px; 
+}
+    }
+.abbreviated-version{
+  width: 83%;
+  height: 14.5vw;
+  margin: 5%;
+  background-color:#69D1E9;
+  outline:medium;
+  border:none;  
+  color:#FFF;
+                    
+}
+@media screen and (min-width: 523px) {
+    .abbreviated-version {
+    font-size: 25px;
+}
+    }
+@media screen and (min-width: 768px) {
+    .abbreviated-version {
+    height:107.3px;
+}
+    }
+.circle1{
+    background-position: left 29.9%;
+    background-size: 280%;
+    background-color:#F0F0F0;width: 2.8vw;
+    height: 2.8vw;
+    display: inline-block;
+    margin: 0 0.2vw;
+    border-radius: 50px;
+}
+@media screen and (min-width: 768px) {
+    .circle1 {
+    width:21.5px;
+    height:21.5px;
+}
+    }
+.circle1:hover{
+    background-color: #69D1E9;
+}
+.yonghu{
+    font-size:3vw;margin:2%;
+}
+@media screen and (min-width: 768px) {
+    .yonghu {
+    font-size: 20px;
+}
+    }
