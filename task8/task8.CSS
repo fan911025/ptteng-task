@@ -20,7 +20,7 @@ html,body{
 .register{
     z-index: 2;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: #4fc194;
     float: left;
 }
