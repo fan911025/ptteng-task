@@ -20,11 +20,10 @@
 }
 .fork{
     float: right;
-    padding: 0.74vw;
+    padding: 0.5rem;
     padding-right: 9vw;
 }
 .fork img{     
-    width: 3.9vw;
     margin-right: 1vw;
 }
 .header{
@@ -33,8 +32,8 @@
     background-color:#4fc194;
 }
 .header span{
-    padding: 1.57vw;
-    font-size: 2.2vw;
+    padding:1rem;
+    font-size: 1.7rem;
 }
 @media screen and (min-width: 768px) {
     .header span {

@@ -19,11 +19,10 @@
 }
 .fork{
     float: right;
-    padding: 0.74vw;
+    padding: 0.5rem;
     padding-right: 9vw;
 }
 .fork img{     
-    width: 3.9vw;
     margin-right: 1vw;
 }
 .header{
@@ -32,9 +31,8 @@
     background-color:#4fc194;
 }
 .header span{
-    padding: 1.57vw;
-    font-size: 2.2vw;
-
+    padding:1rem;
+    font-size: 1.7rem;
 }
 @media screen and (min-width: 768px) {
     .header span {
@@ -182,7 +180,7 @@
 .wechat{
     padding-top: 2vw;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .Qr-code{
     text-align: center;
@@ -191,11 +189,10 @@
 .Qr-code img{
     min-width: 72px;
     max-width: 11vw;
-    width: 11vw;
 }
 .change{
     padding: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding-top: 3.3vw;
 }
 .related{
@@ -212,7 +209,7 @@
     padding-bottom: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
       }
 .Grass-boat{
     padding-top: 1.514vw;
@@ -233,4 +230,32 @@
 }
 .ptteng span{
     padding-right: 1.5vw;
+}
+.single{
+	display: inline-block;
+    height: .8rem;
+    width: .8rem;
+    background-color: #FFF;
+    border: 0.1rem solid #f1a750;
+    border-radius: 50%;
+    content: "";
+}
+.single:hover{
+	display: inline-block;
+    height: .8rem;
+    width: .8rem;
+    background-color: #f1a750;
+    border:0.1rem solid #f1a750;
+}
+.radio{
+	display:inline-block;
+}
+.regular-radio{
+	display:none;
+}
+.radio:hover{
+    color:#f1a750;
+}
+.radio:hover .single{
+    background:#f1a750;
 }
