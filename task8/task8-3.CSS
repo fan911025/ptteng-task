@@ -132,6 +132,30 @@
     padding: 15px;
 
 }
+.opac{
+    position: absolute;
+    display:none;
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+.front-end:hover .opac{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 80px 26px;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    text-align: left;
+    opacity: .8;
+    background-color: #000;
+    display:block;
+}
 
 
 
@@ -157,7 +181,7 @@
 
 
 .footer{
-    background-color: #1db176;
+    background-color: #1db176;padding-bottom:0;
     }
 .wechat{
     padding-top: 2vw;

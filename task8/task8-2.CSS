@@ -136,6 +136,7 @@
     background-size: 24vw;
     display: inline-block;
     background-position: -4.5vw;
+    float:left;
 }
 @media screen and (max-width: 768px) {
     .potato {
@@ -144,10 +145,10 @@
     background-size: 230px;
     display: flex;
     background-position: 0;
+    float:none;
 }
   }
 .wenzi{
-    float:right;
     padding-top: 6%;
     display: inline-block;
     width: 65%;
