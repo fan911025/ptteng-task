@@ -1,0 +1,212 @@
+.html,body{
+ /*清除边界空白部分*/
+    margin:0;
+    padding: 0;
+    font-size:62.5%;
+    height: 100%;
+    background-color:#FAFAFA;
+    min-width:368px;
+}
+* {
+  padding:0;
+  margin:0;
+}
+.register{
+    z-index: 2;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #4fc194;
+    float: left;
+}
+.fork{
+    float: right;
+    padding: 0.74vw;
+    padding-right: 9vw;
+}
+.fork img{     
+    width: 3.9vw;
+    margin-right: 1vw;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-color:#4fc194;
+}
+.header span{
+    padding: 1.97vw;
+    font-size: 2.2vw;
+    padding-bottom: 2.9vw;
+}
+.header span:hover{
+  border-bottom:0.5vw solid #FFF;
+}
+.professional{
+    font-size: 16px;
+    padding: 15px;
+    border-bottom: 2px solid #D0D6D9;
+}
+.direction{
+    font-size: 16px;
+    padding: 15px;   
+}
+.form{
+    padding: 16.5px;
+}
+.front-end{
+    margin-top: 40px;
+    background-color: #FFF;
+}
+
+.engineer{
+    padding-top: 20px;
+    padding-bottom: 33px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 1px solid red;  
+}
+.box{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-image: url(images/engineer.png);
+    background-size: 95px;
+}
+.treatment{
+    border-bottom: 1px solid red;
+}
+.threshold{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border-right: 1px solid red;    
+} 
+.difficulty{
+    padding: 15px;
+    width: 50%;
+    margin-left: 50%;  
+} 
+.growth-cycle{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border-top: 1px solid red;
+    border-right: 1px solid red;    
+}
+.scarcity{
+    border-top: 1px solid red;
+    padding: 15px;
+    width: 50%;
+    margin-left: 50%; 
+}
+.company-needs{
+    float: right;
+    margin-right: 5px;
+}
+.company-needs span{
+    color:red;
+}
+.salary{
+   /*padding: 48px;撑无用*/ 
+    width: 43.5%;
+    line-height: 9.49;
+    padding-left: 15.5%;
+    float: left;
+    background-color: #FFF;
+    border-top: 1px solid red;
+}
+.year{
+    padding: 10px;
+    border-top: 1px solid red;
+    margin-left: 43.5%;
+    border-left: 1px solid red;
+}
+.learning{
+    padding: 15px;
+    border-bottom: 1px solid red;
+}
+.prompt{
+    padding: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #1db176;
+    }
+.wechat{
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+.Qr-code{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.Qr-code img{
+    min-width: 72px;
+    max-width: 11vw;
+    width: 11vw;
+}
+.change{
+    padding: 2vw;
+    font-size: 2vw;
+    padding-top: 3.3vw;
+}
+.related{
+    padding: 2vw;
+    font-size: 1.5vw;
+    padding-top: 5vw;
+}
+.related span{
+    padding-right: 0.7vw;
+    border-right: 0.2vw solid red;
+}
+.sites{
+    padding-top: 3.3vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+      }
+.Grass-boat{
+    padding-top: 1.514vw;
+    padding-bottom: 1.514vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+}
+.Grass-boat span{
+    padding-right: 1.5vw;
+}
+.ptteng{
+    padding-top: 1.514vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+}
+.ptteng span{
+    padding-right: 1.5vw;
+}
