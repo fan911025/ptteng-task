@@ -185,7 +185,7 @@
 .wechat{
     padding-top: 2vw;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 .Qr-code{
     text-align: center;
@@ -194,16 +194,15 @@
 .Qr-code img{
     min-width: 72px;
     max-width: 11vw;
-    width: 11vw;
 }
 .change{
     padding: 2vw;
-    font-size: 2vw;
+    font-size: 1.5rem;
     padding-top: 3.3vw;
 }
 .related{
     padding: 2vw;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
     padding-top: 5vw;
 }
 .related span{
@@ -215,14 +214,14 @@
     padding-bottom: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 2vw;
+    font-size: 1.5rem;
       }
 .Grass-boat{
     padding-top: 1.514vw;
     padding-bottom: 1.514vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
 }
 .Grass-boat span{
     padding-right: 1.5vw;
@@ -232,7 +231,7 @@
     padding-bottom: 1vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 1.5vw;
+    font-size: 1.3rem;
 }
 .ptteng span{
     padding-right: 1.5vw;
@@ -243,5 +242,5 @@
     line-height: 27px;
     color: #ffffff;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.3rem;
 }
