@@ -180,7 +180,7 @@
 
 
 .footer{
-    background-color: #1db176;padding-bottom:0;
+    background-color: #1db176;
     }
 .wechat{
     padding-top: 2vw;
@@ -236,4 +236,12 @@
 }
 .ptteng span{
     padding-right: 1.5vw;
+}
+.footer2{
+    background: #26a26f;
+    border-top: 0.1rem solid #32c086;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
 }
