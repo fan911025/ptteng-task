@@ -86,7 +86,7 @@ body {
 .content .box {
   margin: 0 auto;
   border: 1px solid #ffffff;
-  width: 96px;
+  width: 90px;
   height: 104px;
 }
 .Water-People {
@@ -103,7 +103,7 @@ body {
   background-color: #83b09a;
 }
 .choose {
-  width: 90px;
+  width: 96px;
   margin: 15px auto;
 }
 .choose .knife {
