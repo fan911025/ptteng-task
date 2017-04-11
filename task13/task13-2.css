@@ -81,7 +81,7 @@ body {
 .content .vote {
   display: inline-block;
   height: 157px;
-  width: 32.94%;
+  width: 32%;
 }
 .content .box {
   margin: 0 auto;
@@ -103,7 +103,7 @@ body {
   background-color: #83b09a;
 }
 .choose {
-  width: 88px;
+  width: 90px;
   margin: 15px auto;
 }
 .choose .knife {
