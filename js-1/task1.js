@@ -41,10 +41,10 @@ function set() {
 //     var figure_a = parseInt(Math.random() * 9)
 //     var figure_b = parseInt(Math.random() * 9)
 // } while (figure === figure_a || figure === figure_b || figure_a === figure_b)
-
 var int;
 function start() {
-    int = window.setInterval(function () {
+    // clearInterval(int);
+    int = window.setInterval(function(){
         end();
         set();
     }, 1000);
