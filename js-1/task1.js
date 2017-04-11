@@ -42,6 +42,7 @@ function set() {
 //     var figure_b = parseInt(Math.random() * 9)
 // } while (figure === figure_a || figure === figure_b || figure_a === figure_b)
 var int;
+//循环定时器
 function start() {
     // clearInterval(int);
     int = window.setInterval(function(){
@@ -50,11 +51,13 @@ function start() {
     }, 1000);
     star.disabled = true;
 }
+//重置颜色
 function end() {
     for (var i = 0; i < col.length; i++) {
         col[i].style.backgroundColor = "orange";
     }
 }
+//数组调ID
 var star = document.getElementById("star");
 function over() {
     star.disabled = false;
