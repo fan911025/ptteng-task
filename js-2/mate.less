@@ -1,6 +1,7 @@
 @charset"utf-8";
 @c1:#69d1e9;
 @c2:orange;
+@c3:#FFF;
 @zero:0;
 @px:10px;
 @bai:1%;
@@ -18,17 +19,16 @@
 body{
     margin:@zero auto;
     padding:@zero;
-    font-size:@bai * 625;
     max-width:@px + 758;
 }
 .header{
     width:@bai + 99;
-    height:@rem + 4;
+    height:@rem + 3;
     background-color:@c1;
     img{
         .flo(l);
         margin:@px + 9;
-        width:@rem + 0.5;
+        width:@rem;
     }
 }
 .main{
@@ -39,14 +39,13 @@ body{
         border-bottom:@px - 9 solid;
     }
     .main-left{
-        .flo(l);
-        margin:@rem + 1 0 0 @bai + 2;
-        padding-bottom: @rem + 8;
+        margin:@rem + 1 @zero @zero @zero;
+        padding-bottom: @rem + 1;
         font-size:@rem + 0.5;
-        width:@bai + 46;
         border-bottom: @px - 9 solid; 
         .killer{
-            .flo(l);
+            display:inline-block;
+            vertical-align:middle;
             margin:@rem - 1.54 @rem 0 @bai + 7; 
             width:@rem + 2;
             height:@rem + 2;
@@ -55,39 +54,73 @@ body{
             background-image:url(images/sanwa.png);
             background-size:@rem + 2;
         }
+        .shashou{
+            display:inline-block;
+            vertical-align:middle;
+        }
+        input{
+            width:@rem;
+        }
     }
     .main-right{
-        .flo(l);
-        margin:@rem + 1 @bai + 2 0 0;
-        padding-bottom: @rem + 8;
+        margin:@rem + 1 @zero @zero @zero;
+        padding-bottom: @rem + 1;
         font-size:@rem + 0.5;
-        width:@bai + 46;
         border-bottom: @px - 9 solid; 
         .waterPeople{
-            .flo(l);
+            display:inline-block;
+            vertical-align:middle;
             margin:@rem - 1.54 @rem 0 @bai + 7; 
             width:@rem + 2;
             height:@rem + 2;
             border-radius:@bai + 49;
             background-image:url(images/siwa.png);
             background-size:@rem + 2;
-        }  
+        } 
+        .shuimin{
+            display:inline-block;
+            vertical-align:middle;
+        }
+        input{
+            width: @rem;
+        }
     }
 }
+.haoma{ 
+        margin-top:@rem;
+        text-align:center;
+        font-size:@rem; 
+}
+.set{
+    width:@bai + 99;
+    font-size:@rem + 0.5;
+    background-color:@c3;
+    background-image:url(images/pencil.png);
+    border:none;
+    outline:medium;
+}
 .amount{
-    margin-top:@rem + 12.5;
-    line-height:@rem + 11;
+    line-height:@rem + 6;
     text-align: center;
     font-size:@rem;
-    height:@rem + 10;
     input{
         width:@rem + 1;
     }
 }
+.subtraction{
+    margin-top:@rem - 2;
+    }
+.add1{
+    vertical-align: middle;
+}  
 .footer{
     text-align:center;
     button{
-        font-size:@rem + 1;
+        font-size:@rem + .5;
         width:@bai + 93;
+        line-height:@rem + 2;
+        background-color:@c2;
+        border:none;
+        outline:medium;
     }
 }

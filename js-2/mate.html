@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>taks7</title>
     <link rel="stylesheet" href="mate.CSS" type="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
 </head>
+
 <body>
     <div class="header"><img src="images/jiantou.png"></div>
     <div class="main">
         <div class="mate">玩家匹配</div>
-        <div class="main-left">
-            <div class="killer">
+        <div class="assign">
+            <div class="main-left">
+                <div class="killer">
+                </div>
+                <div class="shashou"> 杀手<span id="role">？</span>人</div>
+                <div id="A" class="haoma">
+                </div>
             </div>
-            <div> 杀手2人</div>
-        </div>
-        <div class="main-right">
-            <div class="waterPeople">
+            <div class="main-right">
+                <div class="waterPeople">
+                </div>
+                <div class="shuimin">
+                    水民<span id="role2">？</span>人
+                </div>
+                <div id="B" class="haoma">
+                </div>
             </div>
-            水民6人
         </div>
+        <button id="btn" class="setB">
+        点击设置
+    </button>
         <div class="amount">
-            <span>请输入数量</span><input type="text"><span>玩家数量为4-8</span>
+            <span>请输入数量</span>
+            <span id="subtr" class="subtraction">
+                <img src ="images/subtr.png">
+                </span>
+            <label for="num">
+                <input  id="num" value="6" min="6" max="18" maxlength="2">
+                </label>
+            <span id="add" class="add1">
+                <img src="images/add.png">
+                </span>
+            <span>玩家数量为6-18</span>
         </div>
         <div class="footer">
-            <button>去发牌</button>
+            <button onclick="location.href='###'">去发牌</button>
         </div>
     </div>
+    <script src="mate.js"></script>
 </body>
+
 </html>
