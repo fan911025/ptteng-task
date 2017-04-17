@@ -23,7 +23,7 @@ set.onclick = function filipCards() {
     if(btn.innerHTML=="法官日志"){
             sessionStorage.setItem("rol1",JSON.stringify(arr));
             alert(arr);
-            location.href = "../js-3/mate.html";
+            location.href = "../js-4/js-4.html";
     }
     else if (btn.innerHTML == "查看" + f + "号身份") {
         if (i++ , i == arr.length) {
@@ -102,10 +102,10 @@ function filipCards1() {
 //     var node = document.createTextNode("角色：水民");//创建文本节点+号
 //     para.appendChild(node);//将文本节点植入spab元素
 //     document.getElementById("part").appendChild(para);
-//     var para = document.createElement("span");//创建span元素节点
-//     var node = document.createTextNode("词组：制杖,别看我");//创建文本节点+号
-//     para.appendChild(node);//将文本节点植入spab元素
-//     document.getElementById("phrase").appendChild(para);
+    // var para = document.createElement("span");//创建span元素节点
+    // var node = document.createTextNode("词组：制杖,别看我");//创建文本节点+号
+    // para.appendChild(node);//将文本节点植入spab元素
+    // document.getElementById("phrase").appendChild(para);
 
 // }
 // else if(z++,z=== arr.length){
