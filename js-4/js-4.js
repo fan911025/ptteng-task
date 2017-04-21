@@ -7,17 +7,11 @@ console.log(arr);
 //     document.getElementById("content").appendChild(para);
 // }
 var content=document.getElementById("content");
-var box,identity,number;
+var box;
 var i;
-
-
-
-
 for( i=0; i<arr.length; i++ ){
 	vote=document .createElement("div");
 	vote.className="vote";
-	
-	vote.innerHTML="<a>"+"<p>"+arr[i]+"</p>"+"<div>"+(i+1)+"号"+" </div>"+ "</a>";
+	vote.innerHTML="<a>"+"<p class='status'>"+arr[i]+"</p>"+"<div id='number'>"+(i+1)+"号"+" </div>"+ "</a>";
 	content.appendChild(vote);
-
 }
