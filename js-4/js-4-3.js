@@ -18,7 +18,7 @@ for( i=0; i<arr.length; i++ ){
 	vote.innerHTML="<a>"+"<p class='status'>"+arr[i]+"</p>"+"<div id='number'>"+(i+1)+"号"+" </div>"+ "</a>";
 
     oStatus[i] = {};//数组中的每个元素都是一个对象，包括身份、号码、状态
-    oStatus[i].num = i + 1;
+    oStatus[i].num = i+1;
     oStatus[i].identity = arr[i];
     oStatus[i].status = "alive"
     oStatus[i].day = 1;

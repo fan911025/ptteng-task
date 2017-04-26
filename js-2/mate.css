@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   padding: 0;
   max-width: 768px;
+  min-width: 320px;
 }
 .header {
   width: 100%;
@@ -72,7 +73,7 @@ body {
   text-align: center;
   font-size: 1rem;
 }
-.set {
+.setB {
   width: 100%;
   font-size: 1.5rem;
   background-color: #ffffff;
@@ -97,7 +98,7 @@ body {
 .footer {
   text-align: center;
 }
-.footer button {
+.footer input {
   font-size: 1.5rem;
   width: 94%;
   line-height: 3rem;

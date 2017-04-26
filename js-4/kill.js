@@ -44,7 +44,7 @@ for( i=0; i<arr.length; i++ ){
 
 var sta = document.getElementsByClassName("status");
 var killPeople;//死亡玩家号码
-for (var i = 0; i < oStatus.length; i++) {
+for (var i = 0; i < all.length; i++) {
     //标记死亡玩家
     if (oStatus[i].status == "killed" || oStatus[i].status == 'voted') {
         sta[i].style.background = "#9b9b9b";

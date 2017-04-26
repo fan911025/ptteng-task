@@ -1,5 +1,6 @@
 var st = document.getElementById("subtr");//减号按钮元素节点
 var ad = document.getElementById("add");//加号按钮元素节点
+var number=document.getElementById("num");
 var number = num.value;
 var arra;
 var arr_a;
@@ -106,7 +107,7 @@ for (i=0;i<y;i++){
 }
 //减法函数
 function subtract() {
-  if(number>6 && number<=18) {
+  if(number>6 || number<=18) {
     number--;
   }
   else {
@@ -117,7 +118,7 @@ function subtract() {
 }
 //加法函数
 function add() {
-  if(number>=6 && number<18) {
+  if(number>6 || number<18) {
     number++;
   }
   else {
@@ -128,17 +129,18 @@ function add() {
 }
 
 function change(){
-    number = document.getElementById("num").valu;
-    if(number<6||number>18){
+    if(num.value<=6){
+      alert("人数超出范围，请重新输入0~18范围内的数字");
+      number = 6;
     }
-    else{
-        alert("人数超出范围，请重新输入0~18范围内的数字");
-        number = 6;
+    else if(num.value>18){
+      alert("人数超出范围，请重新输入0~18范围内的数字");
+      num.value = 18;
     }
 }
-//
+
 function licensing (){
-        if (number < 6 || number > 18) {
+        if (number < 6 && number > 18) {
     alert("请重新输入6-18的玩家人数");
   }
   else {
@@ -167,7 +169,7 @@ function click() {
   ad.onclick=add;
   st.onclick=subtract;
   // 定义input的输入事件，value值改变
-  num.oninput=change;
+  num.onblur=change;
   // 检测事件
   btn.onclick = assign;
   btn2.onclick = licensing;

@@ -15,6 +15,7 @@ body{
     width: 100%;
     max-width: 640px;
     background: rgb(237,237,237);
+    margin: 0 auto;
 }
 span{
     font-family: 微软雅黑;

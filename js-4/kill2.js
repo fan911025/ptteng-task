@@ -25,8 +25,11 @@ var killPeople;
 for (var i = 0; i < allName.length; i++) {
     allName[i].index = i;
     allName[i].onclick = function () {
-        //如果该玩家被点击，则触发此函数
-        if (oStatus[this.index].status == "killed" || oStatus[this.index].status == 'voted') {
+        //如果该玩家被点击，则触发此函数 
+        if (oStatus[this.index].identity == '杀手') {
+            alert('老铁，别动手，自己人');
+        } 
+        else if(oStatus[this.index].status == "killed" || oStatus[this.index].status == 'voted') {
             alert('大哥，放过我吧，我都已经死了💞💙💛💚');
         } 
         else {
@@ -36,23 +39,18 @@ for (var i = 0; i < allName.length; i++) {
             }
             allName[this.index].style.background = 'red';
             killPeople = this.index;
-            oStatus[this.index].status = 'voted';
+            oStatus[this.index].status = 'killed';
+            oStatus[this.index].day = n;
             console.log(oStatus);
         }
     }
 }
-var castDie=document.getElementById("castDie");
-castDie.onclick=function(){
+var castDie=document.getElementById("kill");
+kill.onclick=function(){
     if(killPeople==undefined){
         alert("请选择一个玩家");
     }
     else{
-           for (var m = 0; m < oStatus.length; m++) {
-                if (oStatus[m].status == 'alive') {
-                    oStatus[m].day++;
-                    console.log(oStatus[m].day);
-                }
-            }
             statusAll = JSON.stringify(oStatus);
             sessionStorage.oStatus = statusAll;
             console.log(statusAll);
