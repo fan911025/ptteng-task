@@ -107,7 +107,7 @@ for (i=0;i<y;i++){
 }
 //减法函数
 function subtract() {
-  if(number>6 || number<=18) {
+  if(number>6 && number<=18) {
     number--;
   }
   else {
@@ -118,7 +118,7 @@ function subtract() {
 }
 //加法函数
 function add() {
-  if(number>6 || number<18) {
+  if(number>=6 && number<18) {
     number++;
   }
   else {
