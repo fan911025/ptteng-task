@@ -175,3 +175,11 @@ function click() {
   btn2.onclick = licensing;
 }
 click();
+//闭包
+// for(var i=0;i<5;i++){      
+
+// (function(i){             
+
+// setTimeout(function(){              
+
+// console.log(i);        },0)    })(i); }
